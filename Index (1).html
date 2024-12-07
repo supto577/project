@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World-Tour & Travel Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+     <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Travel Agency <i class="fas fa-globe"></i></a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destinations">Destinations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Discover Your Next Adventure!</h1>
+            <p>Explore the world with our guided tours</p>
+        </div>
+    </section>
+
+    <section class="destinations">
+        <div class="container">
+            <h2>Popular Destinations of the World</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="destination1.jpg" class="card-img-top" alt="Destination 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Kashmir</h5>
+                            <p class="card-text">Kashmir, often called "Paradise on Earth," is a dream destination for nature lovers, adventure seekers, and those in search of peace and tranquility. The region is known for its stunning landscapes, lush valleys, and pristine lakes.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="destination2.jpg" class="card-img-top" alt="Destination 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Bali</h5>
+                            <p class="card-text">Bali, an Indonesian island known for its rich culture, stunning natural beauty, and vibrant tourism scene, has long been a top destination for travelers from around the world. Located in the Indian Ocean, Bali offers a diverse range of attractions, from scenic beaches and lush rice terraces to ancient temples and modern resorts. Here’s an overview of some of Bali’s must-visit tourist spots:</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="destination3.jpg" class="card-img-top" alt="Destination 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Switzerland </h5>
+                            <p class="card-text">Switzerland, known for its breathtaking landscapes, picturesque alpine villages, and rich cultural heritage, is one of the most popular tourist destinations in the world. Nestled in the heart of Europe, Switzerland offers a perfect blend of natural beauty, outdoor adventure, and urban charm. Here’s a look at some of the top tourist points in Switzerland that attract visitors year-round.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a travel agency committed to providing the best travel experiences. Our team is passionate about exploring the world and sharing those experiences with you.</p>
+            <ul>
+                <li>Experienced Guides</li>
+                <li>Affordable Packages</li>
+                <li>24/7 Support</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="costs" class="costs">
+        <div class="container">
+            <h2>Tour Costs</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Destination</th>
+                        <th>Duration</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kashmir</td>
+                        <td>5 days</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr>
+                        <td>Bali</td>
+                        <td>7 days</td>
+                        <td>$700</td>
+                    </tr>
+                    <tr>
+                        <td>Switzerland</td>
+                        <td>10 days</td>
+                        <td>$1000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="contact" class="contact form-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Explore the World. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
